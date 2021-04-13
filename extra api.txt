@@ -1,0 +1,9 @@
+POST request of JSON data
+{
+"cmd" : "setAbsDegree",
+"rollDegree" : roll,
+"pitchDegree" : pitch,
+"yawDegree" : yaw
+}
+to endpoint: http://192.168.0.1:27739/obsbot/tail/ai/gimbal
+will make your Obsbot Tail rotate. Use an invalid value such as -1000 if you don't want to update certain angles.
